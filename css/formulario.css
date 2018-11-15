@@ -1,0 +1,190 @@
+* {
+	padding:0px;
+	margin:0px;
+	font-family:"Segoe UI";
+	list-style:none;
+	outline:none;
+}
+body {
+	background:#FBFBFB;
+}
+
+/*	-	-	-	SuperU	-	-	-	*/
+
+#SesionAbierta {
+	position: fixed;
+	z-index: 5;
+}
+#SesionAbierta a, #SesionAbierta span {
+	margin:auto;
+	padding:8px 15px;
+	display: block;
+	float:left;
+	text-decoration: none;
+	color:white;
+	background: black;
+	-webkit-transition:all .2s;
+	-moz-transition:all .2s;
+	-ms-transition:all .2s;
+	-o-transition:all .2s;
+	transition:all .2s;
+}
+#SesionAbierta a:hover {
+	background: white;
+	color: black;
+}
+
+/*	-	-	-	Base	-	-	-	*/
+
+#formulario {
+	margin:auto;
+	margin-bottom:50px;
+	width:730px;
+	background:#FFF;
+	border-radius:2px;
+	box-shadow:0px 0px 3px grey;
+	-webkit-box-shadow:0px 0px 3px grey;
+	-moz-box-shadow:0px 0px 3px grey;
+	-ms-box-shadow:0px 0px 3px grey;
+	-o-box-shadow:0px 0px 3px grey;
+}
+.titulo {
+	margin:5px auto;
+	padding-top:10px;
+	color:#34495E;
+	text-align:center;
+	font-size:38px;
+}
+.datos {
+	margin:20px auto;
+	color:#FFF;
+	text-align:left;
+	font-size:20px;
+	padding:10px 20px;
+	background:#1ABC9C;
+}
+li {
+	padding:10px 40px;
+	border-bottom:1px solid #DDD;
+	text-align:right;
+	color:#34495E;
+}
+li label {
+	padding:5px 0px;
+	position:relative;
+}
+
+/*	-	-	- Específico	-	-	-	*/
+
+.terminos {
+	display:flex;
+	padding:5px 10px;
+	color:#4C50F9;
+	font-weight:bold;
+}
+label {
+	color:#34495E;
+}
+input {
+	width:200px;
+	height:30px;
+	padding:0px 5px;
+	margin-right:220px;
+	margin-left:15px;
+	border-radius:2px;
+	background:#4C50F9;
+	border:2px solid #4C50F9;
+	color:#FFF;
+	-webkit-transition:all .25s;
+	-moz-transition:all .25s;
+	-ms-transition:all .25s;
+	-o-transition:all .25s;
+	transition:all .25s;
+}
+input:focus {
+	color:#000;
+	margin-right:190px;
+	width:230px;
+	background:#FFF;
+	border:2px solid #4C50F9;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-ms-box-shadow:none;
+	-o-box-shadow:none;
+}
+.enviar, #salir {
+	padding:6px 35px;
+	background:#C9302C;
+	margin:10px 50px;
+	border-radius:2px;
+	border:none;
+	font-size:16px;
+	color:#FFF;
+	-webkit-transition:all .25s;
+	-moz-transition:all .25s;
+	-ms-transition:all .25s;
+	-o-transition:all .25s;
+	transition:all .25s;
+}
+#salir {
+	margin-top:10px;
+	margin-left:330px;
+	text-decoration:none;
+}
+.enviar:hover, #salir:hover {
+	background:#E74C3C;
+}
+
+/*	-	-	-	Fecha de Nacimiento	-	-	-	*/
+
+.anio {
+	margin-right:196px;
+}
+.btnfecha {
+	margin-top:5px;
+	padding:5px 8px;
+	background:#4C50F9;
+	border:none;
+	border-radius:2px;
+	color:#FFF;
+}
+
+/*	-	-	-	Checkbox & Radio	-	-	-	*/
+
+input[type="radio"],
+input[type="radio"]:checked {
+	display:none;
+}
+input[type="radio"]:checked + label {
+	background:#4C50F9;
+	color:#FFF;
+}
+.disciplina div {
+	margin-left:110px;
+	width:436px;
+	display:flex;
+}
+.sexo {
+	display:flex;
+}
+.disciplina label,
+.sexo label {
+	cursor:pointer;
+	display:inline-block;
+	padding:5px 10px;
+	margin:0px 2px;
+	border-radius:2px;
+	background:rgba(76,80,249,0.15);
+	color:#34495E;
+	-webkit-transition:all .2s;
+	-moz-transition:all .2s;
+	-ms-transition:all .2s;
+	-o-transition:all .2s;
+	transition:all .2s;
+}
+.disciplina label:hover,
+ .sexo label:hover {
+	background:#4C50F9;
+	color:#FFF;
+}

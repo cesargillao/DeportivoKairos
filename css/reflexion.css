@@ -1,0 +1,17 @@
+.shortarticle {
+	margin:10px auto 20px auto;
+	padding:15px 30px 20px 30px;
+	text-align:left;
+	background:#FFF;
+	border-radius:5px;
+	font-size:14px;
+	color:#111;
+	height:190px;
+	overflow:hidden;
+}
+.vermas {
+	float:right;
+	cursor:pointer;
+	color:#05A;
+	font-size:15px;
+}

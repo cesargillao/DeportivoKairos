@@ -1,0 +1,42 @@
+<footer>
+				<div class="pie">
+					<ul><div>Patrocinadores</div>
+							<li><a href="http://www.ona.gob.ve">ONA</a></li>
+							<hr size="1" align="right" width="90%" color="#111">
+							<li><a href="http://www.cantv.com.ve">CANTV</a></li>
+							<hr size="1" align="right" width="90%" color="#111">
+							<li><a href="http://www.mindeporte.gob.ve">MinDeporte</a></li>
+							<hr size="1" align="right" width="90%" color="#111">
+							<li><a href="http://www.corpomiranda.com.ve">CorpoMiranda</a></li>
+							<hr size="1" align="right" width="90%" color="#111">
+							<li><a href="">Vanguardia Deportiva</a></li>
+							<hr size="1" align="right" width="90%" color="#111">
+							<li><a href="https://alcaldiamunicipiosucre.gob.ve">Alcaldía de Sucre</a></li>
+					</ul>
+					<ul><div>Ubicación</div>
+						<li>País: Venezuela</li>
+							<hr size="1" align="center" width="90%" color="#111">
+						<li>Ciudad: Caracas, Municipio Sucre</li>
+							<hr size="1" align="center" width="90%" color="#111">
+						<li>Teléfono: 0414 265 8306</li>
+							<hr size="1" align="center" width="90%" color="#111">
+						<li>Teléfono: 0424 120 4046</li>
+							<hr size="1" align="center" width="90%" color="#111">
+						<li>Correo: Deportivokairos@gmail.com</li>
+							<hr size="1" align="center" width="90%" color="#111">
+							<li>Correo: Deportivokairos@hotmail.com</li>
+					</ul>
+					<ul><div>Forma Parte De Nuestro Equipo</div>
+						<li><a href="formularios/atletas.php">Atletas</a></li>
+							<hr size="1" align="center" width="90%" color="#111">
+						<li><a href="formularios/pasantes.php">Pasantes</a></li>
+							<hr size="1" align="center" width="90%" color="#111">
+						<li><a href="formularios/personaltecnico.php">Personal Técnico</a></li>
+							<hr size="1" align="center" width="90%" color="#111">
+						<br>
+						<li style="color:#888"><center>&copy; 2016 Deportivo Kairos</center><br>
+						<center>Todos los derechos reservados</center><br>
+						<center>CGL | LCA</center></li>
+					</ul>
+				</div>
+			</footer>

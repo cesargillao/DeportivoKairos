@@ -1,0 +1,77 @@
+<div>
+	<form action="write.php" method="GET">
+		<div id="tabla">
+			<div id="donde">Escribir en:</div>
+				<input type="radio" id="radio1" name="tabla" value="inicio">
+				<label for="radio1">Inicio</label>
+				<input type="radio" id="radio2" name="tabla" value="noticias">
+				<label for="radio2">Noticias</label>
+				<input type="radio" id="radio3" name="tabla" value="reflexion">
+				<label for="radio3">Reflexión</label>
+				<input type="radio" id="radio4" name="tabla" value="basquetbol">
+				<label for="radio4">Basquetbol</label>
+				<input type="radio" id="radio5" name="tabla" value="futbol">
+				<label for="radio5">Fútbol</label>
+				<input type="radio" id="radio6" name="tabla" value="futbol_sala">
+				<label for="radio6">Fútbol Sala</label>
+				<input type="radio" id="radio7" name="tabla" value="voleibol">
+				<label for="radio7">Voleibol</label>
+				<input type="radio" id="radio8" name="tabla" value="kikimbol">
+				<label for="radio8">Kikimbol</label>				
+			</div>
+		</div>
+		<div id="insertar">
+			<div class="titulo">
+				<input type="text" class="" name="titulo" id="titulo" placeholder="TÍTULO" onblur="cambio(this)" required></div>
+			<div class="ayuda1">
+				<div id="ayuda1">SCRIPT</div>
+			</div>
+			<div class="ayuda2">
+				<div id="ayuda2">RESULTADO</div>
+			</div>
+			<div class="tools">
+				<div class="icon-bold" id="bold"></div>
+				<div class="icon-italic" id="italic"></div>
+				<div class="icon-underline" id="underline"></div>
+				<div class="icon-strikethrough" id="strikethrough"></div>
+				<div class="icon-list-numbered" id="lista1"></div>
+				<div class="icon-list2" id="lista2"></div>
+				<div class="icon-link" id="link"></div>
+				<div class="icon-image" id="image"></div>
+				<div class="icon-subscript" id="sub"></div>
+				<div class="icon-superscript" id="sup"></div>
+				<div class="icon-minus" id="lineh"></div>
+				<div class="icon-arrow-down2" id="salto"></div>
+			</div>
+			<div class="tooltips"><center>
+				<span class="tooltip1">Pone el texto en negrita</span>
+				<span class="tooltip2">Pone el texto cursivo</span>
+				<span class="tooltip3">Subraya el texto</span>
+				<span class="tooltip4">Tacha el texto</span>
+				<span class="tooltip5">Viñetas numeradas, con etiquetas &lt;ol&gt;&lt;/ol&gt; a los extremos</span>
+				<span class="tooltip6">Viñetas de punto, con etiquetas &lt;ul&gt;&lt;/ul&gt; a los extremos</span>
+				<span class="tooltip7">Añadir un enlace a un texto, inserte el enlace en href=""</span>
+				<span class="tooltip8">Añadir una imágen, inserte el enlace en src=""</span>
+				<span class="tooltip9">Añade un sub-índice</span>
+				<span class="tooltip10">Añade un super-índice</span>
+				<span class="tooltip11">Añade una línea divisora horizontal en todo el artículo</span>
+				<span class="tooltip12">Salto de línea (Escribir en la línea de abajo)</span>
+			</center></div>
+			<div class="contenido">
+				<textarea cols="130" class="" rows="100" name="contenido" id="contenido" placeholder="CONTENIDO" onblur="cambio(this)" required></textarea>
+			</div>
+			<div class="fecha">
+				<input type="date" class="" name="fecha" id="fecha" onblur="cambio(this)" required>
+			</div>
+			<br>
+			<li class="button" id="btnpreliminar">Vista Preliminar</li>
+		</div>
+		<div class="wrapper">
+			<div id="preliminar">
+				<div id="resultado"></div>
+				<li class="button" id="btnsalir">Salir</li>
+				<button type="submit" class="button" id="btnpublicar">Publicar</button>
+			</div>
+		</div>
+	</form>
+</div>

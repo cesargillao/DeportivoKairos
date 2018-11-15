@@ -1,0 +1,49 @@
+﻿			<header>
+				<div id="slideshow">
+				<!-- <div id="anterior" class="icon-circle-left"></div>
+				<div id="siguiente" class="icon-circle-right"></div>-->
+					<li><img src="img/slideshow/1.jpg"/></li>
+					<li><img src="img/slideshow/2.jpg"/></li>
+					<li><img src="img/slideshow/3.jpg"/></li>
+					<li><img src="img/slideshow/4.jpg"/></li>
+					<li><img src="img/slideshow/5.jpg"/></li>
+					<li><img src="img/slideshow/6.jpg"/></li>
+					<li><img src="img/slideshow/7.jpg"/></li>
+				</div>
+				<div class="social">
+					<ul>
+						<li><a href="http://www.facebook.com/kairos.deportivo" class="icon-facebook"></a></li>
+						<li><a href="http://www.twitter.com/deportivokairos" class="icon-twitter"></a></li>
+						<li><a href="http://www.instagram.com/deportivokairos" class="icon-instagram"></a></li>
+						<li><a href="https://www.youtube.com/channel/UCcSztkOxy2MzdracdMmKMBA" class="icon-youtube"></a></li>
+						<li><a href="http://www.deportivokairos.blogspot.com" class="icon-blogger"></a></li>
+						<li><a href="contacto.php" class="icon-envelop"></a></li>
+					</ul>
+				</div>
+			</header>
+			<nav>
+				<div class="navbar" id="nav-inicio">
+					<a class="texto" href="index.php">
+					<img class="icon" src="img/ico1.png">Inicio</a>
+				</div>
+				<div class="navbar" id="nav-historia">
+					<a class="texto" href="historia.php">
+					<img class="icon" src="img/ico2.png">Historia</a>
+				</div>
+				<div class="navbar" id="nav-galeria">
+					<a class="texto" href="galeria.php">
+					<img class="icon" src="img/ico3.png">Galeria</a>
+				</div>
+				<div class="navbar" id="nav-noticias">
+					<a class="texto" href="noticias.php">
+					<img class="icon" src="img/ico4.png">Noticias</a>
+				</div>
+				<div class="navbar" id="nav-reflexion">
+					<a class="texto" href="reflexion.php">
+					<img class="icon" src="img/ico5.png">Reflexión</a>
+				</div>
+				<div class="navbar" id="nav-contacto">
+					<a class="texto" href="contacto.php">
+					<img class="icon" src="img/ico6.png">Contacto</a>
+				</div>
+			</nav>

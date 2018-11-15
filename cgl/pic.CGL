@@ -1,0 +1,33 @@
+<form method="GET" action="upload.php">
+	<div id="tabla">
+		<div id="donde">Subir a:</div>
+		<input type="radio" name="carpeta" value="invitaciones" id="radio1">
+		<label for="radio1">Invitaciones</label>
+		<input type="radio" name="carpeta" value="estadales" id="radio2">
+		<label for="radio2">Estadales</label>
+		<input type="radio" name="carpeta" value="nacionales" id="radio3">
+		<label for="radio3">Nacionales</label>
+		<input type="radio" name="carpeta" value="amistosos" id="radio4">
+		<label for="radio4">Amistosos</label>
+		<input type="radio" name="carpeta" value="diversion" id="radio5">
+		<label for="radio5">Diversion</label>
+		<input type="radio" name="carpeta" value="trabajo_social" id="radio6">
+		<label for="radio6">Trabajo Social</label>
+		<input type="radio" name="carpeta" value="videos" id="radio7">
+		<label for="radio7">Videos</label>
+		<input type="radio" name="carpeta" value="l.f.s.m.s" id="radio8">
+		<label for="radio8">L.F.S.M.S.</label>
+	</div>
+	<div id="insertar">
+		<div class="enlace">
+			<input type="text" id="enlace" name="enlace" placeholder="URL" required></input>
+		</div>
+		<div class="preliminar">
+			<center><img src="" id="preliminar"></img></center>
+		</div>
+		<div class="subir">
+			<input class="button" type="submit" value="Subir">
+			<input type="button" class="btnpreliminar" value="Vista Previa">
+		</div>
+	</div>
+</form>

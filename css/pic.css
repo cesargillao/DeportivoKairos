@@ -1,0 +1,147 @@
+* {
+	padding:0;
+	margin:0;
+	outline:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-ms-box-shadow:none;
+	-o-box-shadow:none;
+	box-shadow:none;
+	font-family:'Segoe UI';
+}
+body {
+	background:#F8F8F8;
+}
+form {
+	margin:20px auto;
+	width:800px;
+	display:block;
+}
+input[type="radio"],
+input[type="radio"]:checked {
+	display:none;
+}
+input[type="radio"]:checked + label {
+	background:#179BD9;
+	color:#FFF;
+}
+label {
+	cursor:pointer;
+	display:block;
+	margin:5px 0px;
+	padding:5px 10px;
+	background:#F8F8F8; /* 179BD9 */
+	border-radius:2px;
+	color:#AAA;
+	-webkit-transition:all .2s;
+	-moz-transition:all .2s;
+	-ms-transition:all .2s;
+	-o-transition:all .2s;
+	transition:all .2s;
+}
+label:hover {
+	background:#179BD9; /* E74C3C */
+	color:#FFF;
+}
+.enlace {
+	border-bottom:1px solid #BBB;
+}
+#enlace {
+	margin: 20px auto;
+	display:block;
+	height:30px;
+	width:610px;
+	padding:5px 20px;
+	font-size:12pt;
+	background:#F8F8F8;
+	border-radius:2px;
+	border:2px solid #F8F8F8;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+	-o-transition:all .3s;
+	transition:all .3s;
+}
+#enlace:focus {
+	background:#FFF;
+	border:2px solid #3498D8;
+}
+#donde {
+	font-size:13pt;
+	margin:10px auto;
+	padding:15px;
+	text-align:center;
+	color:#AAA;
+	border-bottom:1px solid #BBB;
+}
+#tabla {
+	margin-right:4px;
+	display:block;
+	float:left;
+	width:115px;
+	padding:5px;
+	text-align:center;
+}
+#insertar {
+	float:left;
+	width:650px;
+	margin-top:-30px;
+	display:block;
+	padding:10px;
+	border-left:1px solid #BBB;
+}
+.preliminar {
+	height:360px;
+	padding:20px auto;
+	width:auto;
+	margin:20px auto;
+	border-bottom:1px solid #BBB;
+}
+img {
+	height:340px;
+	width:auto;
+	border-radius:5px;
+}
+.btnpreliminar {
+	float:right;
+}
+.button,
+.btnpreliminar {
+	cursor:pointer;
+	display:inline-block;
+	padding:10px 35px;
+	background:#C9302C;
+	border-radius:2px;
+	border:none;
+	font-size:13pt;
+	color:#FFF;
+	-webkit-transition:all .25s;
+	-moz-transition:all .25s;
+	-ms-transition:all .25s;
+	-o-transition:all .25s;
+	transition:all .25s;
+}
+.button:hover,
+.btnpreliminar:hover {
+	background:#E74C3C;
+}
+.error {
+	margin:20px auto;
+	width:700px;
+}
+.error p {
+	font-size:20px;
+	display:block;
+	text-align:center;
+}
+.error a {
+	margin:20px auto;
+	display:inline-block;
+	padding:10px;
+	width:200px;
+	border-radius:8px;
+	background:#34495E;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+}

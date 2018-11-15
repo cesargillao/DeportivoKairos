@@ -1,0 +1,13 @@
+<?php
+session_start();
+$Usuario = @$_SESSION['Usuario'];
+						
+if(isset($Usuario)){
+	echo '<div id="SesionAbierta">
+			<span id="Usuario">'.$Usuario.'</span>
+			<a href="post.php" id="EscArt">Escribir Artículo</a>
+			<a href="pic.php" id="SubIm">Subir Imagen</a>
+			<a href="cerrarsesion.php" id="CerrarSesion">Cerrar Sesion</a>
+		  </div>';
+}
+?>

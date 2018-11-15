@@ -1,0 +1,8 @@
+<p>Disciplinas</p>
+				<aside>
+					<li><a href="basquetbol.php">Basquetbol</a></li>
+					<li><a href="futbol.php">Fútbol</a></li>
+					<li><a href="futbol-sala.php">Fútbol Sala</a></li>
+					<li><a href="kikimbol.php">Kikimbol</a></li>
+					<li><a href="voleibol.php">Voleibol</a></li>
+				</aside>
